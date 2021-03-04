@@ -1,0 +1,18 @@
+.container {
+  width: 1334px;
+  height: 750px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.sprite-shining {
+  width: 100%;
+  height: auto;
+  animation: shining 0.8s steps(26) infinite;
+}
+
+@keyframes shining {
+  to {
+    transform: translateY(-19500px);
+  }
+}
